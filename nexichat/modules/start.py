@@ -97,7 +97,7 @@ async def start(_, m: Message):
         await asyncio.sleep(2)
         await umm.delete()
         await m.reply_text(
-            text=f"""**๏ ʜᴇʏ..**\n\n**🥀ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ʙᴀʙʏ...?**"""
+            text=f"""**๏ ʜᴇʏ {0} ,**\n\n**🥀ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ ʙᴀʙʏ...?\nJoin our group @Jsr_chatting And any problem contact my [owner](https://t.me/sxn0w)**"""
         )
         await add_served_user(m.from_user.id)
     else:
